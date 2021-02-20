@@ -20,20 +20,11 @@ CREATE TABLE training(
 	training_data_md5 character(32) UNIQUE,
 	duration interval,
 	start_time timestamp default now(),
-	time_in_zone_1 interval,
-	time_in_zone_2 interval,
-	time_in_zone_3 interval,
-	Z1HRL integer,
-	Z1HRH integer,
-	Z2HRL integer,
-	Z2HRH integer,
-	Z3HRL integer,
-	Z3HRH integer,
+	fatburn interval,
+	fitness interval,
 	avg_hr integer,
 	max_hr integer,
-	hrmax integer,
-	calories integer,
-	fat_burn integer
+	calories integer
 );
 
 CREATE TABLE vo2table(

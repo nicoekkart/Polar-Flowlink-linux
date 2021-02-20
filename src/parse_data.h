@@ -6,18 +6,11 @@ typedef struct {
 	char md5[15];
 	int duration;
 	long starttime;
-	int timeinzone1;
-	int timeinzone2;
-	int timeinzone3;
-	int z1hr[2];
-	int z2hr[2];
-	int z3hr[2];
+	int fatburn;
+	int fitness;
 	int calories;
-	int fatprocent;
 	int avgHr;
 	int maxHr;
-	int HRMax;
-	
 } sTraining;
 
 typedef struct {
